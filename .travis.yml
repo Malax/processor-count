@@ -1,5 +1,5 @@
 language: java
-dist: bionic
+dist: xenial
 sudo: false
 
 cache:
@@ -7,7 +7,7 @@ cache:
     - $HOME/.m2/repository
 
 jdk:
-- openjdk11
+- openjdk14
 
 before_install:
 - mvn clean
