@@ -13,4 +13,4 @@ before_install:
 - mvn clean
 
 script:
-  - mvn clean install heroku:deploy
+  - mvn -e clean install heroku:deploy
